@@ -1,4 +1,13 @@
 {
+    "name": "ouranoshong/go-pay",
+    "description": "A sdk for go pay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ouranoshong",
+            "email": "ouranoshong@outlook.com"
+        }
+    ],
     "require": {
         "nategood/httpful": "^0.2.20"
     },
