@@ -20,9 +20,9 @@ class GoPayConfig
 
     public $apiRoot = 'https://gatewaymer.gopay.com.cn';
 
-    public $merchantId = '';
-    public $key = '';
-    public $virCardNoIn = '';
+    public $merchantId = '0000000363';
+    public $key = '11111aaaaa';
+    public $virCardNoIn = '0000000002000000061';
 
     public $signType = self::SIGN_TYPE_MD5;
 
