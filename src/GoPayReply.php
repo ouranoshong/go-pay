@@ -27,7 +27,7 @@ class GoPayReply
 
     public function __toString()
     {
-        return join('|', $this->data);
+        return http_build_query($this->data, null, '|');
     }
 
     public static function createSuccessReply($url = '') {
